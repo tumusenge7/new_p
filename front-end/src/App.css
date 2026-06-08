@@ -1,0 +1,4 @@
+/* App.css — global print helper only; all UI uses Tailwind */
+@media print {
+  .no-print { display: none !important; }
+}
